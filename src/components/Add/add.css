@@ -1,0 +1,28 @@
+.addbox{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px rgba(172, 231, 231, 0.877);
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;      
+  }
+  .addButton{
+    padding: 10px;
+    position: absolute;
+	height: 60px;
+	width: 80px;
+	border-radius: 25px;
+    float: left;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+    color: rgb(4, 16, 83);
+}
+input:focus::-webkit-input-placeholder {
+    color: red;
+}

@@ -1,0 +1,47 @@
+input{
+    width: 80%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: rgb(57, 84, 240);
+
+  }
+
+input:hover {
+    background-color: rgb(169, 180, 240);
+
+}
+
+
+.listbox{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+
+.buttons{
+    position: right;
+	height: 55px;
+	width: 60px;
+	border-radius: 25px;
+    float: right;
+    padding: 10px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button{
+    background-color: rgb(57, 84, 240);
+}
+button:hover {
+    background-color: rgb(190, 240, 157);
+  }
+
