@@ -6,5 +6,3 @@ class toDoText(models.Model):
 
     def __str__(self):
         return self.text
-
-
